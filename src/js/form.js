@@ -7,8 +7,8 @@ import formData from '../form-data.json'
 import { $, appendTo, createElement } from './dom-utils'
 
 const createTitle = () => {
-  const h2 = createElement('h2', { className: 'titre-2', innerHTML: 'Remplissez en ligne votre déclaration numérique : ' })
-  const p = createElement('p', { className: 'msg-info', innerHTML: 'Tous les champs sont obligatoires.' })
+  const h2 = createElement('h2', { className: 'titre-2', innerHTML: 'Fill in your digital exemption certificate: ' })
+  const p = createElement('p', { className: 'msg-info', innerHTML: 'All fields are mandatory.' })
   return [h2, p]
 }
 // createElement('div', { className: 'form-group' })
@@ -113,15 +113,15 @@ const createReasonFieldset = (reasonsData) => {
 
   const legendAttrs = {
     className: 'legend titre-3',
-    innerHTML: 'Choisissez un motif de déplacement',
+    innerHTML: 'Choose a reason for being outdoors',
   }
   const legend = createElement('legend', legendAttrs)
 
-  const textAlertAttrs = { className: 'msg-alert hidden', innerHTML: 'Veuillez choisir un motif' }
+  const textAlertAttrs = { className: 'msg-alert hidden', innerHTML: 'Please choose a reason' }
   const textAlert = createElement('p', textAlertAttrs)
 
   const textSubscribeReasonAttrs = {
-    innerHTML: 'certifie que mon déplacement est lié au motif suivant (cocher la case) autorisé par le décret n°2020-1310 du 29 octobre 2020 prescrivant les mesures générales nécessaires pour faire face à l\'épidémie de Covid19 dans le cadre de l\'état d\'urgence sanitaire  <a class="footnote" href="#footnote1">[1]</a>&nbsp;:',
+    innerHTML: 'certify that my reasons to be outdoors match one of the following situations (check the box) authorised by the decree n°2020-1310 of October 29th 2020 to tackle the spread of Covid-19 as part of the state of health emergency <a class="footnote" href="#footnote1">[1]</a>&nbsp;:',
   }
 
   const textSubscribeReason = createElement('p', textSubscribeReasonAttrs)

@@ -26,7 +26,7 @@
     <link rel="manifest" href="./favicons/site.webmanifest">
     <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#21bf73">
 
-    <title>Attestation de déplacement dérogatoire</title>
+    <title>Exemption certificate during lockdown</title>
 </head>
 <body>
     <header role="banner" class="wrapper">
@@ -42,12 +42,12 @@
                     COVID-19
                 </span>
                 <span class="covid-subtitle">
-                  Attestation de déplacement dérogatoire
+                  Exemption certificate during lockdown
                 </span>
             </h1>
             <p class="text-desc">
-                En application du décret n°2020-1310 du 29 octobre 2020 prescrivant les mesures générales 
-                nécessaires pour faire face à l'épidémie de Covid19 dans le cadre de l'état d'urgence sanitaire 
+                Pursuant to the decree n°2020-1310 of October 29th, 2020 prescribing rues necessary in the
+                fight against the spread of the Covid-19 virus
             </p>
 
         </div>
@@ -62,30 +62,30 @@
         <div class="wrapper">
             <form id="form-profile" accept-charset="UTF-8"></form>
             <p class="text-center mt-5">
-                <button type="button" id="generate-btn" class="btn btn-primary btn-attestation"><span ><i class="fa fa-file-pdf inline-block mr-1"></i>  Générer mon attestation</span></button>
+                <button type="button" id="generate-btn" class="btn btn-primary btn-attestation"><span ><i class="fa fa-file-pdf inline-block mr-1"></i>  Generate my certificate</span></button>
             </p>
 
             <div class="bg-primary  d-none" id="snackbar">
-                L'attestation est téléchargée sur votre appareil.
+                The certificate is downloaded on your device.
             </div>
         </div>
 
         <div id="footnotes">
             <p id="footnote1">
-                [1] Les personnes souhaitant bénéficier de l'une de ces exceptions doivent se munir s'il y a lieu, lors de leurs déplacements hors de leur domicile, d'un document leur permettant de justifier que le déplacement considéré entre dans le champ de l'une de ces exceptions.
+                [1] People whose situation matches one of the aforementioned and can therefore be exempt must carry, when outdoors, written proof to justify that exemption.
             </p>
             <p id="footnote2">
-                [2]  A utiliser par les travailleurs non salariés, lorsqu'ils ne peuvent disposer d'un justificatif de déplacement établi par leur employeur.
+                [2] To be used by self-employed workers, when they cannot get a travel document from their employer.
             </p>
             <p id="footnote3">
-                [3] Y compris les acquisitions à titre gratuit (distribution de denrées alimentaires...) et les déplacements liés à la perception de prestations sociales et au retrait d'espèces.
+                [3] Including the acquisition of free commodities (food distribution, etc.) and trips related to the receipt of social benefits and cash withdrawals.
             </p>
         </div>
         <p class="github">
-            Le code source de ce service est consultable sur <a href="https://github.com/LAB-MI/attestation-deplacement-derogatoire-q4-2020" class="github-link">GitHub</a>.
+            The source code of this service is available on <a href="https://github.com/clementlize/exemption-certificate-during-lockdown-q4-2020" class="github-link">GitHub</a>.
         </p>
         <p class="label-mi">
-            Ministère de l'Intérieur - DNUM - SDIT
+            Ministry of the Interior - DNUM - SDIT
         </p>
         <picture class="center">
           <source srcset="/logo_dnum_dark.svg" media="(prefers-color-scheme: dark)">
@@ -94,18 +94,18 @@
     </main>
     <footer role="contentinfo" class="main-footer">
         <div class="footer-links">
-            <a href="./confidentialite.html" title="Confidentialité - nouvelle page" target="_blank" class="footer-line footer-link">Confidentialité</a>
-            <a href="https://www.interieur.gouv.fr/Infos-du-site/Mentions-legales" title="Mentions légales - nouvelle page" target="_blank" class="footer-line footer-link">Mentions légales</a>
-            <a href="https://www.gouvernement.fr/info-coronavirus" title="Information du gouvernement sur le Covid-19 - nouvelle page" target="_blank" class="footer-line footer-link">Informations du gouvernement sur le Covid-19</a>
-            <div class="footer-line" >Plus d’infos au <a class="num-08" href="tel:0800130000" title="Numéro vert - appel gratuit depuis un poste fixe en France">0 800 130 000</a></div>
+            <a href="./confidentialite.html" title="Privacy - nouvelle page" target="_blank" class="footer-line footer-link">Privacy</a>
+            <a href="https://www.interieur.gouv.fr/Infos-du-site/Mentions-legales" title="Legal Notice - new page" target="_blank" class="footer-line footer-link">Legal Notice (french)</a>
+            <a href="https://www.gouvernement.fr/info-coronavirus" title="Government information about Covid-19 - new page" target="_blank" class="footer-line footer-link">Government information about Covid-19 (french)</a>
+            <div class="footer-line" >For more information: call <a class="num-08" href="tel:0800130000" title="Green number - free call from a landline in France (french)">0 800 130 000</a></div>
             <p class="footer-line" id="version"></p>
         </div>
     </footer>
 
     <div class="alert  alert-info  d-none" id="update-alert">
-        Une nouvelle version est disponible. Cliquer sur le bouton pour l'obtenir.
+        An update is available.
         <p class="text-right">
-            <button id="reload-btn" class="btn  btn-info">Mettre à jour</button>
+            <button id="reload-btn" class="btn  btn-info">Update</button>
         </p>
     </div>
 
