@@ -121,7 +121,7 @@ const createReasonFieldset = (reasonsData) => {
   const textAlert = createElement('p', textAlertAttrs)
 
   const textSubscribeReasonAttrs = {
-    innerHTML: 'certify that my reasons to be outdoors match one of the following situations (check the box) authorised by the decree n°2020-1310 of October 29th 2020 to tackle the spread of Covid-19 as part of the state of health emergency <a class="footnote" href="#footnote1">[1]</a>&nbsp;:',
+    innerHTML: 'I certify that my reasons to be outdoors match one of the following situations (check the box) authorised by the decree n°2020-1310 of October 29th 2020 to tackle the spread of Covid-19 as part of the state of health emergency <a class="footnote" href="#footnote1">[1]</a>&nbsp;:',
   }
 
   const textSubscribeReason = createElement('p', textSubscribeReasonAttrs)
